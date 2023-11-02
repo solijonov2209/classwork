@@ -1,0 +1,29 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+}
+.container{
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.js-list{
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  flex-wrap: wrap;
+  list-style: none;
+  padding-left: 0;
+  gap:10px ;
+}
+
+.js-item{
+  max-width: 300px;
+  width: 100%;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="./main.css">
+  <title>Document</title>
+</head>
+<body>
+ <div class="container">
+    
+   <form class="js-form">
+   <!-- <input class="js-input" type="text" placeholder="Text">
+   <button class="js-btn">Send</button>
+   <p class="js-text"></p> -->
+   <select class="select" >
+    <option class="opn" hidden ></option>
+
+     <option class="opn" >Male</option>
+     <option class="opn">Female</option>
+   </select>
+
+   <input class="input-country" type="text" placeholder="country">
+
+   <input class="range1" oninput="num1.value = (parseInt(amount.value))" name="amount" type="range" min="1",max="100">
+
+   <output role="status" name="num1"> 0</output>
+
+   <input class="range2" oninput="num2.value = (parseInt(amount2.value))" name="amount2" type="range" min="1",max="100">
+
+   <output role="status" name="num2"> 0</output>
+
+   <button >Submit</button>
+   
+   </form>
+   <ul class="js-list"></ul>
+ </div>
+   <script src="./js/user.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+</html>
